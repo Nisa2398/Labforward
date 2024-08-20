@@ -20,6 +20,7 @@ Connect your device: Ensure your device is connected to the COM port (e.g., COM1
     node send.js
 The script will open a connection to the specified COM port at a baud rate of 9600. You can then input a message via the terminal, which will be sent over the serial connection.
 Example Input: When prompted with Sending:, type your message and press Enter. The message will be sent over the serial port.
+
 2.**Testing Options**:
 For testing ASCII code, uncomment the serialPort.write( Buffer.from(message, 'ascii') section.
 For sending a command, uncomment the console.log("Sending Command:", 'Send stable weight value') section.
